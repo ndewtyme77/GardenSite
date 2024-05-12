@@ -1,4 +1,21 @@
 @charset "UTF-8";
+/* Background*/
+.bg-image {
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url( "../images/AE115521-1AFF-4FDA-B3C7-A9661EA5A090_1_105_c.jpeg"); }
+.img2 { background-image: url("../images/BC3B70C6-425D-4CB2-A36A-317C30F49A67_1_105_c.jpeg"); }
+.img3 { background-image: url("../images/39B9A635-0DB3-44F5-B8AD-A006DD5711F7_1_105_c.jpeg"); }
+
+
 .container {
 	background-color: #FFFFFF;
 	width: 90%;
