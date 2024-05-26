@@ -11,6 +11,63 @@
 <head>
 <title>Untitled Document</title>
 </head>
+<style>
+	
+form {
+
+  width: 50%;
+padding-left: 30px;
+padding-right: 15px;
+
+}
+
+
+
+label {
+
+  display: block;
+
+  margin-bottom: 10px;
+
+}
+
+
+
+input, textarea {
+
+  width: 100%;
+
+  padding: 5px;
+
+  margin-bottom: 10px;
+
+}
+
+
+
+input[type="submit"] {
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+
+  background-color: #082A07;
+ color: white;
+
+}
+
+
+</style>
 
 <body>
 	
@@ -21,9 +78,9 @@
   <a class="active" href= "contact.html">Contact</a>
   <a href= "About.html">About</a>
 </div>
-<!-- End of Nav bar-->
 <div class="container">
-<section class="banner style2">
+  <section class="banner style1 onload-content-fade-right">
+	
 <form id="myForm">
 <label for="name">Name:</label>
   <input type="text" id="name" name="name" required>
@@ -31,21 +88,19 @@
   <input type="tel" id="phone" name="phone" required>
 <label for="email">Email:</label>
 <input type="email" id="email" name="email" required>
-<label for="message">Message (256 characters max):</label>
+<label for="message">Message (256 characters max):<span class="image ease"></span></label>
 <textarea id="message" name="message" maxlength="256"></textarea>
 <input type="submit" value="Submit">
-
 </form>
 
+<div class="image ease">
+		<img src="images/39B9A635-0DB3-44F5-B8AD-A006DD5711F7_1_105_c.jpeg" alt=""/>
+</div>
 	</section>
-	</div>
-		 	<div class="image ease">
-	<img src="images/39B9A635-0DB3-44F5-B8AD-A006DD5711F7_1_105_c.jpeg" alt=""/>
-	</div>
+		 </div>
 	<script src="assets/js/form.js"></script>
  </header>
-	
-	<footer class="secondary_header footer">
+		<footer class="secondary_header footer">
     <div class="copyright" align="center">&copy;2024 - <strong>Professional Digi, LLC.</strong></div>
   </footer>
 </body>

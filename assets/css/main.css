@@ -22,62 +22,6 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-/*form stuff*/
-form {
-
-  width: auto;
-
-}
-
-
-
-label {
-
-  display: block;
-
-  margin-bottom: 10px;
-
-}
-
-
-
-input, textarea {
-
-  width: 100%;
-
-  padding: 5px;
-
-  margin-bottom: 10px;
-
-}
-
-
-
-input[type="submit"] {
-
-  background-color: #4CAF50;
-
-  color: white;
-
-  border: none;
-
-  padding: 10px 20px;
-
-  cursor: pointer;
-
-}
-
-
-
-input[type="submit"]:hover {
-
-  background-color: #082A07;
-
-}
-
-
-/*end of form*/
-
 /* 
   Define this in your CSS 
   .ease-in-outTransition = Replace it by the name you want to give your transition
@@ -3226,6 +3170,7 @@ input, select, textarea {
 		-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
 		-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
 		transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
+		
 	}
 
 	body.is-preload .banner.onload-content-fade-up .content {
