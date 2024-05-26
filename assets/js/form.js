@@ -11,9 +11,6 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 
   var message = document.getElementById("message").value;
 
-  
-
-  // Do something with the form data, such as sending it to a server or displaying it on the page
 
 });
 
