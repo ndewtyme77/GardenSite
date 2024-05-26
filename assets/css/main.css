@@ -26,6 +26,10 @@ footer, header, hgroup, menu, nav, section {
   Define this in your CSS 
   .ease-in-outTransition = Replace it by the name you want to give your transition
 */
+.container { 
+padding-top: 20px;
+padding-bottom: 20px;
+}
 .ease {
 	/*Add a property and value that you like to transition. Ex: width:200px;*/
 	/* Chrome, Safari */
